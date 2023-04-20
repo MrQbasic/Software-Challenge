@@ -26,6 +26,9 @@
 *.a
 *.lib
 
+# Logs
+/server/log/*.log
+
 # Executables
 *.exe
 *.out
@@ -34,6 +37,6 @@
 out/
 /.vs
 /.vscode
-/bin
-build
+/client/bin
+/client/build
 CMakeListsOLD.txt
