@@ -1,0 +1,8 @@
+14:35:07 WARN               sc.server.Configuration - Could not find server.properties at /home/leon/Code/Software-Challenge-/server/server.properties, will use default values!
+14:35:07 INFO   sc.server.network.NewClientListener - Listening on port 13050 for incoming connections.
+14:35:07 DEBUG             sc.server.ServiceManager - Spawning thread for new service (name=NewClientListener, daemon=true)
+14:35:07 DEBUG             sc.server.ServiceManager - Spawning thread for new service (name=ClientManager, daemon=true)
+14:35:07 INFO       sc.server.network.ClientManager - ClientManager running
+14:35:07 DEBUG                  sc.gui.LobbyManager - System Font: Font[name=System Regular, family=System, style=Regular, size=13.0]
+14:35:10 INFO   sc.server.network.NewClientListener - Shutting down NewClientListener...
+14:35:10 DEBUG                     sc.gui.ServerApp - App stopped, ending program

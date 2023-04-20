@@ -1,0 +1,8 @@
+/home/leon/Code/Software-Challenge-/client/CMakeFiles/edit_cache.dir
+/home/leon/Code/Software-Challenge-/client/CMakeFiles/rebuild_cache.dir
+/home/leon/Code/Software-Challenge-/client/sc_library/CMakeFiles/SC_PENGUINS_LIB.dir
+/home/leon/Code/Software-Challenge-/client/sc_library/CMakeFiles/edit_cache.dir
+/home/leon/Code/Software-Challenge-/client/sc_library/CMakeFiles/rebuild_cache.dir
+/home/leon/Code/Software-Challenge-/client/starter/CMakeFiles/SC_PENGUINS_STARTER.dir
+/home/leon/Code/Software-Challenge-/client/starter/CMakeFiles/edit_cache.dir
+/home/leon/Code/Software-Challenge-/client/starter/CMakeFiles/rebuild_cache.dir

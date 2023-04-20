@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/SC_PENGUINS_STARTER.dir/custom_logic.cpp.o CMakeFiles/SC_PENGUINS_STARTER.dir/starter.cpp.o -o ../bin/SC_PENGUINS_STARTER  -Wl,-rpath,/home/leon/Code/Software-Challenge-/client/sc_library ../sc_library/libSC_PENGUINS_LIB.so /usr/lib/libboost_system.so.1.81.0 /usr/lib/libboost_thread.so.1.81.0 
