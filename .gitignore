@@ -28,6 +28,7 @@
 
 # Logs
 /server/log/*.log
+/replays
 
 # Executables
 *.exe
