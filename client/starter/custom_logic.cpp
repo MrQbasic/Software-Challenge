@@ -1,4 +1,5 @@
 #include "logic.h"
+#include <stdio.h>
 
 /**
  * @brief A subclass of a game logic.
@@ -24,7 +25,22 @@ public:
             std::cout << "ERROR: NO MOVES FOUND!" << std::endl;
             throw;
         }
-        // Return the chosen move, in this case the first move in the vector.
-        return possibleMoves[0];
+
+        int best_score = 0;
+        int best_index;
+
+        Game::Board board = gameState.get_board();
+
+        for(int i=0; i<possibleMoves.size(); i++){
+            Game::Move current_move = possibleMoves[i];
+            char field_val = board.get_field(current_move.destination);
+
+            if(field_val > best_score){
+                best_score = field_val;
+                best_index = i;
+            }
+
+        }
+        return possibleMoves[best_index];
     }
 };
