@@ -33,5 +33,5 @@ fi
 ./client/build.sh iamasecret
 
 # Execute binary
-chmod +x ./clint/bin/SC_PENGUINS_STARTER
-./clint/bin/SC_PENGUINS_STARTER
+chmod +x ./client/bin/SC_PENGUINS_STARTER
+./client/bin/SC_PENGUINS_STARTER
