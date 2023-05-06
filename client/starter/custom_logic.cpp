@@ -1,5 +1,6 @@
 #include "logic.h"
 #include <stdio.h>
+#include "weights.h"
 
 /**
  * @brief A subclass of a game logic.
@@ -26,21 +27,29 @@ public:
             throw;
         }
 
-        int best_score = 0;
-        int best_index;
-
         Game::Board board = gameState.get_board();
 
-        for(int i=0; i<possibleMoves.size(); i++){
-            Game::Move current_move = possibleMoves[i];
-            char field_val = board.get_field(current_move.destination);
+        //calc score and get best
+        float best_score = 0.0f;
+        Game::Move best_move;
+        for(Game::Move move : possibleMoves){
+            float current_score = 0.0f;
+            //extract infomations
+            Game::Coordinate destination = move.destination;
+            //fish calc
+            int amount_of_fish = (int) board.get_field(destination);
+            current_score += FISH_FACTOR * (float) amount_of_fish;
+            //cutof calc
+            
+            //...
 
-            if(field_val > best_score){
-                best_score = field_val;
-                best_index = i;
+            //check if the current score is better the the best -> overwrite it
+            if(current_score > best_score){
+                best_score = current_score;
+                best_move = move;
             }
-
         }
-        return possibleMoves[best_index];
+
+        return best_move;
     }
 };

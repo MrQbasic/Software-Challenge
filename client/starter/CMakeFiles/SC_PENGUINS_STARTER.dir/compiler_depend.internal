@@ -195,6 +195,7 @@ starter/CMakeFiles/SC_PENGUINS_STARTER.dir/custom_logic.cpp.o
  /usr/include/c++/12.2.1/bits/ostream.tcc
  /usr/include/c++/12.2.1/istream
  /usr/include/c++/12.2.1/bits/istream.tcc
+ /home/leon/Code/Software-Challenge-/client/starter/weights.h
 
 starter/CMakeFiles/SC_PENGUINS_STARTER.dir/starter.cpp.o
  /home/leon/Code/Software-Challenge-/client/starter/starter.cpp
@@ -1517,4 +1518,5 @@ starter/CMakeFiles/SC_PENGUINS_STARTER.dir/starter.cpp.o
  /home/leon/Code/Software-Challenge-/client/sc_library/externals/pugixml/pugiconfig.hpp
  /home/leon/Code/Software-Challenge-/client/sc_library/include/logic/logic.h
  /home/leon/Code/Software-Challenge-/client/starter/custom_logic.cpp
+ /home/leon/Code/Software-Challenge-/client/starter/weights.h
 

@@ -193,7 +193,8 @@ starter/CMakeFiles/SC_PENGUINS_STARTER.dir/custom_logic.cpp.o: starter/custom_lo
   /usr/include/c++/12.2.1/bits/basic_ios.tcc \
   /usr/include/c++/12.2.1/bits/ostream.tcc \
   /usr/include/c++/12.2.1/istream \
-  /usr/include/c++/12.2.1/bits/istream.tcc
+  /usr/include/c++/12.2.1/bits/istream.tcc \
+  starter/weights.h
 
 starter/CMakeFiles/SC_PENGUINS_STARTER.dir/starter.cpp.o: starter/starter.cpp \
   /usr/include/stdc-predef.h \
@@ -1514,7 +1515,8 @@ starter/CMakeFiles/SC_PENGUINS_STARTER.dir/starter.cpp.o: starter/starter.cpp \
   sc_library/externals/pugixml/pugixml.hpp \
   sc_library/externals/pugixml/pugiconfig.hpp \
   sc_library/include/logic/logic.h \
-  starter/custom_logic.cpp
+  starter/custom_logic.cpp \
+  starter/weights.h
 
 
 sc_library/externals/pugixml/pugiconfig.hpp:
@@ -1897,8 +1899,6 @@ sc_library/include/game/result.h:
 
 /usr/include/boost/asio/detail/posix_static_mutex.hpp:
 
-/usr/include/asm-generic/types.h:
-
 /usr/include/asm-generic/bitsperlong.h:
 
 /usr/include/asm/bitsperlong.h:
@@ -2093,6 +2093,10 @@ sc_library/include/game/result.h:
 
 /usr/include/boost/asio/impl/as_tuple.hpp:
 
+/usr/include/boost/asio/packaged_task.hpp:
+
+/usr/include/bits/locale.h:
+
 /usr/include/c++/12.2.1/bits/std_mutex.h:
 
 /usr/include/boost/date_time/date_duration.hpp:
@@ -2272,12 +2276,6 @@ sc_library/include/game/result.h:
 /usr/include/boost/preprocessor/list/fold_right.hpp:
 
 /usr/include/boost/asio/impl/write.hpp:
-
-/usr/include/bits/types/clock_t.h:
-
-/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
-
-/usr/include/boost/mpl/aux_/preprocessor/params.hpp:
 
 /usr/include/boost/predef/detail/os_detected.h:
 
@@ -2675,6 +2673,16 @@ sc_library/include/game/board.h:
 
 /usr/include/c++/12.2.1/debug/debug.h:
 
+/usr/include/bits/types/clock_t.h:
+
+/usr/include/boost/mpl/aux_/arithmetic_op.hpp:
+
+/usr/include/boost/mpl/aux_/preprocessor/params.hpp:
+
+/usr/include/boost/predef/architecture/alpha.h:
+
+/usr/include/bits/types/FILE.h:
+
 /usr/include/boost/asio/co_spawn.hpp:
 
 /usr/include/boost/asio/impl/any_completion_executor.ipp:
@@ -2716,10 +2724,6 @@ sc_library/include/game/board.h:
 /usr/include/boost/mpl/aux_/config/forwarding.hpp:
 
 /usr/include/linux/posix_types.h:
-
-/usr/include/boost/predef/architecture/alpha.h:
-
-/usr/include/bits/types/FILE.h:
 
 /usr/include/boost/asio/error.hpp:
 
@@ -2809,6 +2813,8 @@ sc_library/include/game/board.h:
 
 /usr/include/c++/12.2.1/vector:
 
+/usr/include/bits/typesizes.h:
+
 /usr/include/boost/asio/detail/handler_alloc_helpers.hpp:
 
 /usr/include/boost/asio/impl/execution_context.ipp:
@@ -2832,10 +2838,6 @@ sc_library/include/game/board.h:
 /usr/include/c++/12.2.1/bits/stl_raw_storage_iter.h:
 
 /usr/include/boost/mpl/aux_/numeric_cast_utils.hpp:
-
-/usr/include/bits/locale.h:
-
-/usr/include/boost/asio/packaged_task.hpp:
 
 /usr/include/boost/asio/execution/bulk_execute.hpp:
 
@@ -3147,7 +3149,7 @@ sc_library/include/client/client.h:
 
 /usr/include/boost/asio/traits/equality_comparable.hpp:
 
-/usr/include/bits/typesizes.h:
+/usr/include/asm-generic/types.h:
 
 /usr/include/asm-generic/int-ll64.h:
 
@@ -3698,6 +3700,8 @@ sc_library/include/logic/logic.h:
 /usr/include/boost/preprocessor/cat.hpp:
 
 /usr/include/c++/12.2.1/ext/numeric_traits.h:
+
+starter/weights.h:
 
 /usr/include/boost/mpl/aux_/arity.hpp:
 
